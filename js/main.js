@@ -32,22 +32,7 @@ var Esri_WorldTopoMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/
   attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 });
 
-var poem = "A moment of happiness," + '<br>' +
-"you and I sitting on the verandah," + '<br>' +
-"apparently two, but one in soul, you and I." + '<br>' +
-"We feel the flowing water of life here," + '<br>' +
-"you and I, with the garden's beauty" + '<br>' +
-"and the birds singing." + '<br>' +
-"The stars will be watching us," + '<br>' +
-"and we will show them" + '<br>' +
-"what it is to be a thin crescent moon." + '<br>' +
-"You and I unselfed, will be together," + '<br>' +
-"indifferent to idle speculation, you and I." + '<br>' +
-"The parrots of heaven will be cracking sugar" + '<br>' +
-"as we laugh together, you and I." + '<br>' +
-"In one form upon this earth," + '<br>' +
-"and in another form in a timeless sweet land." + '<br>' +
-'<br>'+'<br>'+"-Rumi";
+var poem = "fill text";
 
 var flynn = "<h3>" + "Happy Birthday Flynn!" + "</h3>";
 
