@@ -16,8 +16,8 @@ There are many hiking based applications out there like [AllTrails](https://www.
 - build a more robust data pipeline for populating json's, or ultimately vector tiles, rather than just using pre-downloaded data.
 
 ### Application Screenshots
-## state-wide view
-<img scr="images/state-view.png">
+#### state-wide view
+<img src="images/state-view.png">
 
-## park view
-<img scr="images/park-view.png">
+#### park view
+<img src="images/park-view.png">
