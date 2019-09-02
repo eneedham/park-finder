@@ -11,30 +11,30 @@ p.main {
 .map {
     position: absolute;
     height: 100%;
-    left: 20%;
+    left: 30%;
     top: 0;
     right: 0;
 }
 
 #container {
   position: absolute;
-  width: 20%;
+  width: 30%;
   height: 100%;
   background-color: #FFFBF3;
   display: flex;
   flex-direction: column;
-  /*border-right: 4px solid #000;*/
+  overflow: !important scroll;
 }
+
 #bar {
     font-size: 2.2vh;
     font-weight: bold;
-    /*color: #000;*/
     background-color: #C8BDA9;
     padding-left: 7%;
-    /*border-bottom: solid 4px #000000;*/
     overflow: hidden;
     color: #3C3941;
 }
+
 #text {
     font-size: 1.9vh;
     line-height: 1.4;
@@ -42,8 +42,9 @@ p.main {
     padding-left: 3%;
     padding-right: 2%;
     color: #3C3941;
-    /*overflow-y: scroll;*/
+    overflow: !important scroll;
 }
+
 #trail {
     font-size: 1.9vh;
     font-style: italic;
@@ -52,27 +53,16 @@ p.main {
     padding-left: 3%;
     padding-right: 2%;
     color: #3C3941;
-    /*overflow-y: scroll;*/
 }
-
-/*#logo {
-    flex: 1;
-    text-align: center;
-    overflow:hidden;
-}*/
-
 
 .leaflet-label {
     background: rgba(200, 189, 169, 0.85);
-    /*background: rgba(91, 91, 91, 0.81);*/
     color: rgba(60, 57, 65, 0.95);
-    /*color: #fff;*/
     font-family: "HelveticaNeue-Light", Helvetica, sans-serif;
     font-size: 15px;
     width: 175px;
     border-radius: 0px;
     padding: 8px 8px 8px 8px;
-    /*border: 5px solid rgba(255,255,255,0.25);*/
 }
 
 img{
@@ -113,21 +103,6 @@ img{
     cursor: pointer;
 }
 
-
-
-
-
-/*We might want this later to style legend p elements*/
-
-/*.leaflet-label p {
-    margin: 0;
-    padding: 0;
-    text-align: right;
-    float: right;
-    font-family: "HelveticaNeue-Bold", Helvetica, sans-serif;
-    font-size: 12px;
-}*/
-
 .legend {
     line-height: 20px;
     background: rgba(200, 189, 169, 0.85);
@@ -150,17 +125,3 @@ img{
     margin-right: 8px;
     opacity: 1;
 }
-
-
-/*Potential css for a sidebar if we create one*/
-
-/*.sidebar {
-    position: absolute;
-    left: 0px;
-    width: 400px;
-    top: 0;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 20px;
-    font-size: 16px;
-}*/
