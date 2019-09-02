@@ -14,3 +14,10 @@ There are many hiking based applications out there like [AllTrails](https://www.
 - clear state park info when a trail outside of the state park is clicked on
 - change "null" trail/park info to "no data" or "no information"
 - build a more robust data pipeline for populating json's, or ultimately vector tiles, rather than just using pre-downloaded data.
+
+### Application Screenshots
+#### state-wide view
+<img src="images/state-view.png">
+
+#### park view
+<img src="images/park-view.png">
